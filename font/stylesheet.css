@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'LG Smart_H';
+    src: url('LGSmHaSB.eot');
+    src: url('LGSmHaSB.eot?#iefix') format('embedded-opentype'),
+        url('LGSmHaSB.woff2') format('woff2'),
+        url('LGSmHaSB.woff') format('woff'),
+        url('LGSmHaSB.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LG Smart_H';
+    src: url('LGSmHaR.eot');
+    src: url('LGSmHaR.eot?#iefix') format('embedded-opentype'),
+        url('LGSmHaR.woff2') format('woff2'),
+        url('LGSmHaR.woff') format('woff'),
+        url('LGSmHaR.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

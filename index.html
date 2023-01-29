@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LG 헬로비전</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normal.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/common.css?v=<?php echo time(); ?>">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/ui.common.js?v=<?php echo time(); ?>"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="header_inner">
+                <div class="top_header">
+                    <ul class="top_gnb">
+                        <li><a href="#">헬로tv & 인터넷</a></li>
+                        <li><a href="#">헬로모바일</a></li>
+                        <li><a href="#">헬로모바일 다이렉트</a></li>
+                        <li class="lang"><a href="#">ENG</a></li>
+                    </ul>
+                </div>
+            </div>
+                <div class="bottom_header">
+                    <div class="bottom_header_inner">
+                        <h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="LG 헬로비전"></a></h1>
+                        <ul class="gnb">
+                            <li>
+                                <a href="#">회사소개</a>
+                                <ul class="depth2">
+                                    <li><a href="#">사업연혁</a></li>
+                                    <li><a href="#">제휴제안</a></li>
+                                    <li><a href="#">오시는 길</a></li>
+                                    <li><a href="#">CI</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">사업소개</a>
+                                <ul class="depth2">
+                                    <li><a href="#">사업소개</a></li>
+                                    <li><a href="#">헬로tv & 인터넷</a></li>
+                                    <li><a href="#">헬로모바일</a></li>
+                                    <li><a href="#">헬로렌탈</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">홍보</a>
+                                <ul class="depth2">
+                                    <li><a href="#">뉴스룸</a></li>
+                                    <li><a href="#">브랜드스토리</a></li>
+                                    <li><a href="#">홍보영상</a></li>
+                                    <li><a href="#">공지사항</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">사회공헌</a>
+                                <ul class="depth2">
+                                    <li><a href="#">사회공헌 소개</a></li>
+                                    <li><a href="#">사회공헌 캠프</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">투자정보</a>
+                                <ul class="depth2">
+                                    <li><a href="#">재무정보</a></li>
+                                    <li><a href="#">공시</a></li>
+                                    <li><a href="#">IR 자료실</a></li>
+                                    <li><a href="#">지배구조</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">지역방송</a></li>
+                        </ul>
+                        <a href="#nav" class="btn_menu"></a>
+                        <!-- 태블릿, 모바일 내비게이션 -->
+                        <nav id="nav">
+                            <div class="left_menu_wrap">
+                                    <a href="#" class="nav_logo">
+                                        <img src="images/nav_logo.png" alt="헬로비전 내비게이션 로고">
+                                    </a>
+                                <ul class="left_menu">
+                                    <li class="active"><a href="#">회사소개</a></li>
+                                    <li><a href="#">사업소개</a></li>
+                                    <li><a href="#">홍보</a></li>
+                                    <li><a href="#">사회공헌</a></li>
+                                    <li><a href="#">투자정보</a></li>
+                                    <li class="active"><a href="#">지역방송</a></li>
+                                </ul>
+                                <a href="#" class="nav_lang">ENG</a>
+                            </div>
+                            <div class="right_menu_wrap">
+                                <button type="button" class="btn_close">닫기버튼</button>
+                                <div class="right_nav">
+                                    <div class="menu_wrap">
+                                        <ul class="right_menu">
+                                            <li>회사소개</li>
+                                            <li><a href="#">사업연혁</a></li>
+                                            <li><a href="#">오시는 길</a></li>
+                                            <li><a href="#">제휴제안</a></li>
+                                            <li><a href="#">CI</a></li>
+                                        </ul>
+                                        <ul class="right_menu">
+                                            <li>사업소개</li>
+                                            <li><a href="#">사업소개</a></li>
+                                            <li><a href="#">헬로tv & 인터넷</a></li>
+                                            <li><a href="#">헬로모바일</a></li>
+                                            <li><a href="#">헬로렌탈</a></li>
+                                        </ul>
+                                        <ul class="right_menu">
+                                            <li>홍보</li>
+                                            <li><a href="#">뉴스룸</a></li>
+                                            <li><a href="#">브랜드스토리</a></li>
+                                            <li><a href="#">홍보영상</a></li>
+                                            <li><a href="#">공지사항</a></li>
+                                        </ul>
+                                        <ul class="right_menu">
+                                            <li>사회공헌</li>
+                                            <li><a href="#">사회공헌 소개</a></li>
+                                            <li><a href="#">사회공헌캠프</a></li>
+                                        </ul>
+                                        <ul class="right_menu">
+                                            <li>투자정보</li>
+                                            <li><a href="#">재무정보</a></li>
+                                            <li><a href="#">공고</a></li>
+                                            <li><a href="#">IR 자료실</a></li>
+                                            <li><a href="#">지배구조</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <ul class="right_icon_wrap">
+                                    <li>
+                                        <a href="#">
+                                            <div class="img_wrap">
+                                                <img src="images/tv_internet_icon.png" alt="헬로TV 인터넷">
+                                            </div>
+                                            <h3>헬로tv & 인터넷</h3>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="img_wrap">
+                                                <img src="images/mobile_icon.png" alt="헬로모바일">
+                                            </div>  
+                                            <h3>헬로모바일</h3>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="img_wrap">
+                                                <img src="images/direct_icon.png" alt="헬로다이렉트">
+                                            </div>
+                                            <h3>헬로모바일</h3>    
+                                        </a> 
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+        </header>
+        <div id="container">
+            <!-- 메인 슬라이더 영역 -->
+            <section class="main_slier_wrap">
+                <h2 class="blind">메인슬라이더</h2>
+                <div class="swiper-container main_slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slide1"></div>
+                        <div class="swiper-slide slide1"></div>
+                    </div>
+                    <div class="swiper_button_wrap">
+                        <div class="swiper-button-prev main_slider_prev"></div>
+                        <div class="swiper-pagination main_slider_pagination"></div>
+                        <div class="swiper-button-next main_slider_next"></div>
+                        <div class="swiper-button-pause on"></div>
+                        <div class="swiper-button-play"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- // 메인 슬라이더 영역 -->
+            <!-- 우리동네 지역방송  -->
+            <section class="local_broad">
+                <div class="local_broad_inner clearfix">
+                    <div class="main_tit_wrap">
+                        <h3>LOCAL<br>
+                            &nbsp;&nbsp;BROADCAST</h3>
+                        <h2>우리동네 지역방송</h2>
+                        <a href="#" class="btn_more">지역방송 바로가기</a>
+                    </div>
+                    <!-- 전국주요뉴스 슬라이더!! -->
+                    <div class="news_slider_wrap">
+                        <div class="swiper-container news_slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="news_thumnail">
+                                            <img src="images/news_img01.jpg" alt="영천 특집 침체된 지역경제 살리기">
+                                            <p class="news_tit">전국 주요뉴스</p>
+                                        </div>
+                                        <div class="txt_wrap">
+                                            <h4>[영천 특집] “침체된 지역경제 살리기 총력”</h4>
+                                            <p class="date">2020.11.13</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="news_thumnail">
+                                            <img src="images/news_img01.jpg" alt="영천 특집 침체된 지역경제 살리기">
+                                        </div>
+                                        <div class="txt_wrap">
+                                            <h4>[영천 특집] “침체된 지역경제 살리기 총력”</h4>
+                                            <p class="date">2020.11.13</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination news_pagination">1</div>
+                        </div>
+                    </div>
+                    <!-- 오늘의 뉴스 슬라이더!! -->
+                    <div class="today_slider_wrap">
+                        <div class="swiper-container today_slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="txt_wrap">
+                                            <h4>[헬로TV브리핑] 1억 기부자 제일 많은 지역은? 대구!</h4>
+                                            <p class="txt">내가 가진 것을 나누는 것,생각만큼 선뜻 실천하기 쉽지 않은 일이죠.</p>
+                                            <p class="date">2020.11.15</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="">
+                                        <div class="txt_wrap">
+                                            <h4>[헬로TV브리핑] 독거노인 늘어나는데… '갈 곳이 없다'</h4>
+                                            <p class="txt">독거노인, 가족과 떨어져 집에서 홀로 살아가는 어르신들을 뜻하는 말</p>
+                                            <p class="date">2020.11.15</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="">
+                                        <div class="txt_wrap">
+                                            <h4>[헬로TV브리핑] 올해 우리나라 출산율, '또 최저'</h4>
+                                            <p class="txt">올해 우리나라 출산율은 (또 강조)'또' 최저를 기록했습니다. (한템포 쉬고 계속해서 이어가겠습니다.</p>
+                                            <p class="date">2020.11.15</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="">
+                                        <div class="txt_wrap">
+                                            <h4>[헬로TV브리핑] 이들은 왜 머리카락을 잘랐을까?</h4>
+                                            <p class="txt">야성미 넘치는 자칭 의리의 남자 배우 김보성, 그가 삭발한 이유를 아십니까? 의리의 아이콘은 역시!</p>
+                                            <p class="date">2020.11.15</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="slider_button_wrap">
+                                <div class="swiper-button-prev slider_btn today_slider_prev"></div>
+                                <div class="swiper-button-next slider_btn today_slider_next"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 팔도밥상 슬라이더 -->
+                    <div class="paldo_slider_wrap">
+                        <div class="swiper-container paldo_slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide silde01">
+                                    <a href="#">
+                                        <div class="txt_wrap">
+                                            <h4>[전북 남원] 초롱, 남주와 함께하는 남원 밥상</h4>
+                                            <p class="date">2020.11.15</p>
+                                        </div>
+                                        <p class="time">00:48:10</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide slide02">
+                                    <a href="#">
+                                        <div class="txt_wrap">
+                                            <h4>[강원 양구] 겨울철 밥도둑 시래기</h4>
+                                            <p class="date">2020.11.15</p>
+                                        </div>
+                                        <p class="time">00:48:10</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide silde01">
+                                    <a href="#">
+                                        <div class="txt_wrap">
+                                            <h4>[전북 남원] 초롱, 남주와 함께하는 남원 밥상</h4>
+                                            <p class="date">2020.11.15</p>
+                                        </div>
+                                        <p class="time">00:48:10</p>
+                                    </a>
+                                </div>
+
+                                <div class="swiper-slide slide02">
+                                    <a href="#">
+                                        <div class="txt_wrap">
+                                            <h4>[강원 양구] 겨울철 밥도둑 시래기</h4>
+                                            <p class="date">2020.11.15</p>
+                                        </div>
+                                        <p class="time">00:48:10</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="slider_button_wrap">
+                                <div class="swiper-button-prev slider_btn paldo_slider_prev"></div>
+                                <div class="swiper-button-next slider_btn paldo_slider_next"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- // 우리동네 지역방송  -->
+            <!-- 헬로 컬쳐 피플 -->
+            <section class="culture_people">
+                <div class="culture_people_inner">
+                    <div class="main_tit_wrap">
+                        <h3>CULTURE<br>
+                            &nbsp;&nbsp;&amp; PEOPLE</h3>
+                        <h2>헬로 컬쳐 &amp; 피플</h2>
+                        <div class="btn_more_wrap">
+                            <a href="#" class="btn_more">브랜드스토리</a>
+                            <a href="#" class="btn_more">사회공헌캠프</a>
+                        </div>
+                    </div>
+                    <div class="culture_slider_wrap">
+                        <div class="swiper-container culture_slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="culture_thumbnail">
+                                            <img src="images/culture_thumb01.gif" alt="아름다운재단과 함께하는 '보호종료아동' 자립지원 사업">
+                                        </div>
+                                        <div class="txt_wrap">
+                                            <h3>아름다운재단과 함께하는 '보호종료아동' 자립지원 사업</h3>
+                                            <p class="txt">LG헬로비전이 아름다운재단과 함께 보호종료아동의 건강한 자립을 위해 통신비 지원과 인식개선 캠페인을 진행합니다.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="culture_thumbnail">
+                                            <img src="images/culture_thumb02.gif" alt="모두가 함께즐기는 영화축제 <가치봄 영화제>지원">
+                                        </div>
+                                        <div class="txt_wrap">
+                                            <h3>모두가 함께즐기는 영화축제 ＜가치봄 영화제＞지원</h3>
+                                            <p class="txt">LG헬로비전은 장애 및 장애인식개선 관련 주제 영화를 모아VOD특별관을 구성하고 판매 수익금을 기부하는＜나눔VOD캠페인＞을 운영하여 ＜가치봄영화제PDFF＞를 지원했습니다.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="culture_thumbnail">
+                                            <img src="images/culture_thumb03.jpg" alt="소상공인을 응원하는 <마음나눔 꾸러미> 지원사업">
+                                        </div>
+                                        <div class="txt_wrap">
+                                            <h3>소상공인을 응원하는 ＜마음나눔 꾸러미 지원사업</h3>
+                                            <p class="txt">코로나19 장기화로 대면판매가 감소하면서 어려움을 겪는 소상공
+                                                인과 고독감을 느끼는 취약계층을 지원하기 위해 ＜마음나눔 꾸러미＞
+                                                를 전달했습니다.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="culture_thumbnail">
+                                            <img src="images/culture_thumb04.png" alt="집중호우 피해 남원지역 이재민대피소에 긴급 구호물품 지원">
+                                        </div>
+                                        <div class="txt_wrap">
+                                            <h3>집중호우 피해 남원지역 이재민대피소에 긴급 구호물품 지원</h3>
+                                            <p class="txt">LG헬로비전은 집중호우 피해 지역인 전라북도 남원시에 긴급 구호물품을 전달하였습니다.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- If we need navigation buttons -->
+                        </div>
+                        <div class="slider_btn_wrap">
+                            <div class="swiper-button-prev slider_btn culture_slider_prev"></div>
+                            <div class="swiper-button-next slider_btn culture_slider_next"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- // 헬로 컬쳐 피플 -->
+            <!-- 뉴스룸 -->
+            <section class="news_room">
+                <div class="news_room_inner">
+                        <div class="main_tit_wrap">
+                            <h3>NEWS<br>
+                                &nbsp;&nbsp;ROOM</h3>
+                            <h2>뉴스룸</h2>
+                            <a href="#" class="btn_more">지역방송 바로가기</a>
+                        </div>
+                    <div class="newsroom_slider_wrap">
+                        <div class="swiper-container newsroom_slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#" class="slider1_50per">
+                                        <div class="newsroom_txt_wrap">
+                                            <h3>LG헬로비전, 소방의 날 맞아 ‘안전 히어
+                                                로 프로젝트’ 진행…지역 취약계층 아동에
+                                                소방용품 매칭 기부</h3>
+                                            <p class="txt">■ 헬로tv, 헬로인터넷 신규 가입자 수 매칭해 소방용품 키트 마련…소화스프레이와 습식 마스크로 구
+                                                성 ■ ‘초록우산 어린이재단’ 통해 강원?..</p>
+                                            <p class="date">2020.11.15</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="slider1_25per">
+                                        <div class="newsroom_txt_wrap">
+                                            <h3>LG헬로비전 헬로모바일, 아이
+                                                폰12 출시 맞춰 ‘자급제 꿀조
+                                                합 레시피’ 선보여</h3>
+                                            <p class="date">2020.11.02</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="slider1_25per">
+                                        <div class="newsroom_txt_wrap">
+                                            <h3>LG헬로비전 헬로모바일, 코로
+                                                나 시대 접근성 앞세운 ‘편의점
+                                                유통전략’ 성과 </h3>
+                                            <p class="date">2020.10.27</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="slider1_25per">
+                                        <div class="newsroom_txt_wrap">
+                                            <h3>LG헬로비전 헬로모바일, ‘편견
+                                                을 깨다’ 캠페인으로 2030 알
+                                                뜰폰 핵심층 공략</h3>
+                                            <p class="date">2020.10.14</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="slider1_25per">
+                                        <div class="newsroom_txt_wrap">
+                                            <h3>LG헬로비전 지역채널, ＜우리
+                                                동네 히어로＞ 방송</h3>
+                                            <p class="date">2020.10.12</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="slider1_25per">
+                                        <div class="newsroom_txt_wrap">
+                                            <h3>LG헬로비전 헬로모바일, 아이
+                                                폰12 출시 맞춰 ‘자급제 꿀조
+                                                합 레시피’ 선보여</h3>
+                                            <p class="date">2020.11.02</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="slider1_25per">
+                                        <div class="newsroom_txt_wrap">
+                                            <h3>LG헬로비전 헬로모바일, 코로
+                                                나 시대 접근성 앞세운 ‘편의점
+                                                유통전략’ 성과 </h3>
+                                            <p class="date">2020.10.27</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="slider1_25per">
+                                        <div class="newsroom_txt_wrap">
+                                            <h3>LG헬로비전 헬로모바일, ‘편견
+                                                을 깨다’ 캠페인으로 2030 알
+                                                뜰폰 핵심층 공략</h3>
+                                            <p class="date">2020.10.14</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="slider1_25per">
+                                        <div class="newsroom_txt_wrap">
+                                            <h3>LG헬로비전 지역채널, ＜우리
+                                                동네 히어로＞ 방송</h3>
+                                            <p class="date">2020.10.12</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="slider1_25per">
+                                        <div class="newsroom_txt_wrap">
+                                            <h3>LG헬로비전 헬로모바일, 아이
+                                                폰12 출시 맞춰 ‘자급제 꿀조
+                                                합 레시피’ 선보여</h3>
+                                            <p class="date">2020.11.02</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="slider1_25per">
+                                        <div class="newsroom_txt_wrap">
+                                            <h3>LG헬로비전 헬로모바일, 코로
+                                                나 시대 접근성 앞세운 ‘편의점
+                                                유통전략’ 성과 </h3>
+                                            <p class="date">2020.10.27</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="slider1_25per">
+                                        <div class="newsroom_txt_wrap">
+                                            <h3>LG헬로비전 헬로모바일, ‘편견
+                                                을 깨다’ 캠페인으로 2030 알
+                                                뜰폰 핵심층 공략</h3>
+                                            <p class="date">2020.10.14</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="slider1_25per">
+                                        <div class="newsroom_txt_wrap">
+                                            <h3>LG헬로비전 지역채널, ＜우리
+                                                동네 히어로＞ 방송</h3>
+                                            <p class="date">2020.10.12</p>
+                                        </div>
+                                    </a>
+                                </div>       
+                            </div>
+                        </div>
+                        <div class="slider_btn_wrap">
+                            <div class="swiper-button-prev slider_btn newsroom_slider_prev"></div>
+                            <div class="swiper-button-next slider_btn newsroom_slider_next"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- // 뉴스룸 -->
+            <!-- 헬로 브랜드 스토리 -->
+            <section class="brand_story">
+                <div class="brand_story_inner clearfix">
+                    <div class="main_tit_wrap">
+                        <h3>HELLO<br>
+                            &nbsp;&nbsp;BRAND STORY</h3>
+                        <h2>헬로 브랜드 스토리</h2>
+                    </div>
+                    <!-- 브랜드 스토리 슬라이더 -->
+                    <div class="brand_story_slider_wrap">
+                        <div class="swiper-container brand_story_slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="img_wrap"></div>
+                                        <div class="brand_txt_wrap">
+                                            <h3>새롭게 태어난 LG HelloVision</h3>
+                                            <p class="txt">CJ Hello가 'LG HelloVision'으로 새롭게 태어났습니다. 좀 더 나은 방송통신 서비스로 즐거움과 행복
+                                                을 선사해드릴 수 있도록 더욱 노력하겠습니다.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide slide2">
+                                    <a href="#">
+                                        <div class="img_wrap"></div>
+                                        <div class="brand_txt_wrap">
+                                            <h3>2020 하이스트 브랜드 유료방송 부문 1위 헬로tv</h3>
+                                            <p class="txt">아이들나라,넷플릭스,유튜브는 물론 지역방송까지, 유료방송 최고 수준의 혁신적 콘텐츠 서비스를 제공하는 헬로tv가 2020 하이스트 브랜드 유료방송 부문 1위에 선정되었습니다.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="slider_btn_wrap">
+                                <div class="swiper-button-prev slider_btn brand_slide_prev"></div>
+                                <div class="swiper-pagination brand_pagination"></div>
+                                <div class="swiper-button-next slider_btn brand_slide_next"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 공지사항 -->
+                    <div class="notice_wrap">
+                        <div class="notice_txt_wrap">
+                            <h3>공지사항</h3>
+                            <a href="#" class="btn_more">더보기</a>
+                        </div>
+                        <ul class="notice_list">
+                            <li>
+                                <a href="#">
+                                    <p class="notice_tit">LG헬로비전 리뉴얼 완료</p>
+                                    <p class="notice_date">2020.11.30</p>
+                                </a>
+                            </li>
+                            <li class="last_notice_list">
+                                <a href="#">
+                                    <p class="notice_tit">LG헬로비전 홈페이지 서비스 점검 안내</p>
+                                    <p class="notice_date">2020.03.04</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn_alliance">제휴제안 안내</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="sns_list">
+                        <li>
+                            <a href="#">LG HelloVision</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hello_youtube">LG HelloVision</a>
+                        </li>
+                        <li>
+                            <a href="#">헬로모바일</a>
+                        </li>
+                        <li>
+                            <a href="#">스튜디오 지랩(G.Lab)</a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#" class="btn_top">TOP</a>
+            </section>
+            <!-- // 헬로 브랜드 스토리 -->
+        </div>
+        <footer id="footer">
+            <div class="footer_inner">
+                <div class="top_footer">
+                    <ul class="m_footer_list">
+                        <li><a href="#">헬로tv &amp; 인터넷</a></li>
+                        <li><a href="#">헬로모바일</a></li>
+                        <li><a href="#">헬로모바일 다이렉트</a></li>
+                    </ul>
+                    <ul class="footer_list">
+                        <li class="active"><a href="#">개인정보 처리방침</a></li>
+                        <li><a href="#">법적고지</a></li>
+                        <li><a href="#">이메일 무단수집 거부</a></li>
+                        <li><a href="#">정도경영 사이버신문고</a></li>
+                        <li><a href="#">자율준수 프로그램</a></li>
+                        <li><a href="#">고객서비스 헌장</a></li>
+                        <li><a href="#">광고문의</a></li>
+                    </ul>
+                </div>
+                <div class="bottom_footer">
+                    <div class="footer_logo">footer로고</div>
+                    <div class="coompany_info">
+                        <span>대표이사 송구영</span>
+                        <span>개인정보보호책임자 이건호</span>
+                        <span>사업자 등록번호 117-81-13423</span>
+                        <span>서울특별시 마포구 월드컵북로56길 19 상암디지털드림타워</span>
+                        <span class="center_number">고객행복센터 1855-1000</span>
+                        <div class="servicecenter_number">
+                            <span>070-7373-1002~3(무료/헬로전화 이용 시), 080-120-1012(무료/타사 전화 이용 시)</span>
+                            <span>070-7947-7672(수화 상담/씨토크 가입자 이용 가능, 무료)</span>
+                        </div>
+                        <span class="footer_copy_right">© 2020 LG HelloVision All rights reserved.</span>
+                    </div>
+                    <div class="m_number_wrap">
+                        <p>고객행복센터 <em class="number">1855-1000</em></p>
+                        <p>무료/ 헬로전화 이용 시 <em class="number">070-7373-1002~3</em></p>
+                        <p>무료/ 타사 전화 이용 시 <em class="number">080-120-1012</em></p>
+                        <p>수화 상담/ 씨토크 가입자 이용 가능, 무료 <em class="number">070-7947-7672</em></p>
+                        <p class="copy_right">© 2020 LG HelloVision All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
